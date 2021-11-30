@@ -39,6 +39,14 @@ Se entrega notebook en el que se obtendran diferentes archivos con los que traba
 Directorio 'data', donde se guardan los resultado de la ejecución del notebook.
 Directorio principal:
 
+        - ETL_py directorio que contiene la app para obtener los datos desde la terminal.
+        
+            Para ejecutar ir a la ruta del archivo y escribir:
+            
+                    python o python3 etl_project.py
+                    
+                    El programa pedirá la jornada, debe introducirse la jornada actual de la liga, la app es operativa desde la jornada 15,, jornada actual a                         fecha de 30 de Noviembre de 2021
+        
         - data - donde se guardaran los resultados de la ejecución del notebook.
     
     
@@ -93,6 +101,14 @@ Notebook is delivered in which different files will be obtained with which to wo
 
 Main directory:
 
+     - ETL_py directory contains app to get data from terminal.
+        
+            To execute go to the file root and type:
+            
+                    python o python3 etl_project.py
+                    
+                    The app will ask for the journey, it only works from journey 15th that is the actually journey at 30th November 2021.
+                    
      - data  directory where the results of the notebook execution will be saved.
      
      

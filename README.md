@@ -39,20 +39,20 @@ Se entrega notebook en el que se obtendran diferentes archivos con los que traba
 Directorio 'data', donde se guardan los resultado de la ejecución del notebook.
 Directorio principal:
 
-    - data - donde se guardaran los resultados de la ejecución del notebook.
+        - data - donde se guardaran los resultados de la ejecución del notebook.
     
     
-    - enviroment.yml archivo para instalar el entorno virtual con las librerias necesarias ya instaladas para ejecutar el notebook sin incidencias.
+        - enviroment.yml archivo para instalar el entorno virtual con las librerias necesarias ya instaladas para ejecutar el notebook sin incidencias.
         
-        - Para instalar el entorno vitual ejecutar el siguiente comando en la consola: 
+            - Para instalar el entorno vitual ejecutar el siguiente comando en la consola: 
                     
                     conda env create -f environment.yml
         
-   - Project_ETL notebook para ejecutar y obtener los datos requeridos para el proyecto.
+        - Project_ETL notebook para ejecutar y obtener los datos requeridos para el proyecto.
    
-   - Entregable_ETL notebook de pruebas.
+        - Entregable_ETL notebook de pruebas.
    
-   - Readme.md archivo con la descripción del repositorio.
+        - Readme.md archivo con la descripción del repositorio.
 
 ### It is requested:
 

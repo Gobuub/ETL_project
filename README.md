@@ -36,6 +36,7 @@ Directorio principal:
 
     - data - donde se guardaran los resultados de la ejecución del notebook.
     
+    
     - enviroment.yml archivo para instalar el entorno virtual con las librerias necesarias ya instaladas para ejecutar el notebook sin incidencias.
         
         - Para instalar el entorno vitual ejecutar el siguiente comando en la consola: 
@@ -81,7 +82,9 @@ Notebook is delivered in which different files will be obtained with which to wo
 
 
 Main directory:
-     - data - where the results of the notebook execution will be saved.
+
+     - data  directory where the results of the notebook execution will be saved.
+     
      
      - enviroment.yml file to install the virtual environment with the necessary libraries already installed to run the notebook without incident.
         -To install enviroment type on terminal:

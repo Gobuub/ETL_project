@@ -97,6 +97,7 @@ Main directory:
      
      
      - enviroment.yml file to install the virtual environment with the necessary libraries already installed to run the notebook without incident.
+        
         -To install enviroment type on terminal:
         
                 conda env create -f environment.yml

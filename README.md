@@ -24,10 +24,15 @@ Estadisticas de jugadores (partidos jugados, goles y asistencias) web scraping d
 Datos de comunio (Nombre, posición, valor, puntos, ... ). web scraping página comuniazo y comuniate.
 
 Se entrega notebook en el que se obtendran diferentes archivos con los que trabajar: 
+
     - 1 csv con los equipos de la liga. 
+    
     - 1 csv por equipo con los datos de los jugadores de la plantilla. 
+    
     - 1 csv con los datos de todos los jugadores de la liga. 
+    
     - 1 json con los datos de todos los jugadores de la liga.
+
 
 #### Estructura del repositorio:
 
@@ -73,10 +78,15 @@ Player statistics (games played, goals and assists) web scraping from espn.
 Community data (Name, position, value, points, ...). web scraping page comuniazo and comuniate.
 
 Notebook is delivered in which different files will be obtained with which to work: 
+
     - 1 csv with league teams. 
+    
     - 1 csv per team with the data of the players in the squad.
+    
     - 1 csv with the data of all the players in the league.
+    
     - 1 json with the data of all the players in the league.
+    
 
 #### Repository structure:
 

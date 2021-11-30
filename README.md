@@ -24,20 +24,35 @@ Estadisticas de jugadores (partidos jugados, goles y asistencias) web scraping d
 Datos de comunio (Nombre, posición, valor, puntos, ... ). web scraping página comuniazo y comuniate.
 
 Se entrega notebook en el que se obtendran diferentes archivos con los que trabajar: 
+
     - 1 csv con los equipos de la liga. 
+    
     - 1 csv por equipo con los datos de los jugadores de la plantilla. 
+    
     - 1 csv con los datos de todos los jugadores de la liga. 
+    
     - 1 json con los datos de todos los jugadores de la liga.
+
 
 #### Estructura del repositorio:
 
 Directorio 'data', donde se guardan los resultado de la ejecución del notebook.
 Directorio principal:
-    - data - donde se guardaran los resultados de la ejecución del notebook.
-    - enviroment.yml archivo para instalar el entorno virtual con las librerias necesarias ya instaladas para ejecutar el notebook sin incidencias.
-    - Project_ETL notebook para ejecutar y obtener los datos requeridos para el proyecto.
-    - Entregable_ETL notebook de pruebas.
-    - Readme.md archivo con la descripción del repositorio.
+
+        - data - donde se guardaran los resultados de la ejecución del notebook.
+    
+    
+        - enviroment.yml archivo para instalar el entorno virtual con las librerias necesarias ya instaladas para ejecutar el notebook sin incidencias.
+        
+            - Para instalar el entorno vitual ejecutar el siguiente comando en la consola: 
+                    
+                    conda env create -f environment.yml
+        
+        - Project_ETL notebook para ejecutar y obtener los datos requeridos para el proyecto.
+   
+        - Entregable_ETL notebook de pruebas.
+   
+        - Readme.md archivo con la descripción del repositorio.
 
 ### It is requested:
 
@@ -63,17 +78,32 @@ Player statistics (games played, goals and assists) web scraping from espn.
 Community data (Name, position, value, points, ...). web scraping page comuniazo and comuniate.
 
 Notebook is delivered in which different files will be obtained with which to work: 
+
     - 1 csv with league teams. 
+    
     - 1 csv per team with the data of the players in the squad.
+    
     - 1 csv with the data of all the players in the league.
+    
     - 1 json with the data of all the players in the league.
+    
 
 #### Repository structure:
 
 
 Main directory:
-     - data - where the results of the notebook execution will be saved.
+
+     - data  directory where the results of the notebook execution will be saved.
+     
+     
      - enviroment.yml file to install the virtual environment with the necessary libraries already installed to run the notebook without incident.
+        
+        -To install enviroment type on terminal:
+        
+                conda env create -f environment.yml
+                
      - Project_ETL notebook to execute and obtain the data required for the project.
+     
      - Deliverable_ETL test notebook.
+     
      - Readme.md file with the description of the repository. 

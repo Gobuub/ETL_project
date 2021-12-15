@@ -21,9 +21,8 @@ def comunio_stats(team_lst, journey):
         - index[1] : Team id from the var team_id
         - index[2] : url of comuniate that give us almost of the data 
                     (Player name, Position, Season Points, Season Points Average, Value, On start average)
-        - index[3] : Number of players in the squad.
-        - index[4] : url of comuniazo that give us the points of the last 5 matchs of the each player on the squad
-        - index[5] : url of espn that give us the matchs played, goals received (goalkeepers), goals, assists.
+        - index[3] : url of comuniazo that give us the points of the last 5 matchs of the each player on the squad
+        - index[4] : url of espn that give us the matchs played, goals received (goalkeepers), goals, assists.
     
     Journey's Macht only works from actually journey to future journeys (we can't obtains data from past journeys with this script)
     
@@ -47,10 +46,17 @@ def comunio_stats(team_lst, journey):
         print(team[0])
         
         soup = bs(req.get(team[2]).text , 'html.parser') # soup from comuniate web
-        soup2 = bs(req.get(team[4]).text , 'html.parser') # soup from comuniazo web
-        soup3 = bs(req.get(team[5]).text , 'html.parser') # soup from espn web
+        soup2 = bs(req.get(team[3]).text , 'html.parser') # soup from comuniazo web
+        soup3 = bs(req.get(team[4]).text , 'html.parser') # soup from espn web
 
-        players = team[3] # number of playes on the squad
+        num_players = soup.find_all('div', class_='col-md-12') # Firts count the players on the squad
+        total_players = 0
+        for i in range (2,6):
+            # This loop sum the number of player for position on the squad
+            total_players += len(num_players[i].find_all('div', 
+                                                         class_='enlace2 ficha_jugador col-md-6 col-sm-6 col-xs-12'))
+        
+        players = total_players
 
         team_id = team[1]
 
@@ -255,10 +261,10 @@ def comunio_stats(team_lst, journey):
         
         df_teams = df_teams.append(df_1) # add the df of the team to the df of all teams
         
-        df_1.to_csv(f'data/{squad}_J{journey}.csv', index=False) # export df_team to a team file
+        df_1.to_csv(f'./data/{squad}_J{journey}.csv', index=False) # export df_team to a team file
     
     
-    df_teams.to_json(f'data/comunio_J{journey}.json', orient="table") # export df of all teams to json file
-    df_teams.to_csv(f'data/comunio_J{journey}.csv', index=False) # export df o all teams to csv file
+    df_teams.to_json(f'./data/comunio_J{journey}.json', orient="table") # export df of all teams to json file
+    df_teams.to_csv(f'./data/comunio_J{journey}.csv', index=False) # export df o all teams to csv file
     
     return 'Finished'

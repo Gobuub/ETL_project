@@ -59,6 +59,8 @@ Directorio principal:
         - Project_ETL notebook para ejecutar y obtener los datos requeridos para el proyecto.
    
         - Entregable_ETL notebook de pruebas.
+        
+        - ETL para Dashboard, jupyter notebook para EDA del top 35 de jugadores de la jornada y crear un Dashboard.
    
         - Readme.md archivo con la descripción del repositorio.
 
@@ -121,5 +123,7 @@ Main directory:
      - Project_ETL notebook to execute and obtain the data required for the project.
      
      - Deliverable_ETL test notebook.
+     
+     - ETL para Dashboard, jupyter notebook for EDA of top 35 players of the journey, to make a dashboard.
      
      - Readme.md file with the description of the repository. 

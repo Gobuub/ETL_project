@@ -19,7 +19,7 @@ Tabla de Jugadores.
 
 Tabla Equipos desde API. api.football-data.org
 
-Estadisticas de jugadores (partidos jugados, goles y asistencias) web scraping desde espn.
+Estadisticas de jugadores (partidos jugados, goles y asistencias) web scraping desde espn o fbref.
 
 Datos de comunio (Nombre, posición, valor, puntos, ... ). web scraping página comuniazo y comuniate.
 
@@ -57,6 +57,7 @@ Directorio principal:
                     conda env create -f environment.yml
         
         - Project_ETL notebook para ejecutar y obtener los datos requeridos para el proyecto.
+            - Contiene dos funciones puedes que deben usarse en función de la fuente de datos que quieras usar ESPN o FBREF.
    
         - Entregable_ETL notebook de pruebas.
         
@@ -83,7 +84,7 @@ Players table.
 
 Table Equipment from API. api.football-data.org
 
-Player statistics (games played, goals and assists) web scraping from espn.
+Player statistics (games played, goals and assists) web scraping from espn or FBREF.
 
 Community data (Name, position, value, points, ...). web scraping page comuniazo and comuniate.
 
@@ -121,6 +122,7 @@ Main directory:
                 conda env create -f environment.yml
                 
      - Project_ETL notebook to execute and obtain the data required for the project.
+        - Include two functions you may choose one of those based on the source of data you want to use ESPN or FBREF.
      
      - Deliverable_ETL test notebook.
      

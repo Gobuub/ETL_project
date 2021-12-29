@@ -11,6 +11,7 @@ from src.comunio_stats import comunio_stats
 from src.comunio_stats_fbref import comunio_stats_fbref
 from src.sources import teams_set
 from src.sources_fbref import teams_set_fbref
+from src.classification import classification
     
 if __name__ == "__main__":
     print('Antes de empezar debes introducir la jornada actual.')
@@ -31,3 +32,4 @@ if __name__ == "__main__":
         else:
             print('La opción elegida no es válida, introduce una opción correcta.')
             source = int(input('Elige fuente de datos: '))
+    classification(journey)

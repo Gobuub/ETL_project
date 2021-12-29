@@ -2,7 +2,7 @@ Team_id,Team,Player,Position,Matchs,On_start_%,Goals,Assists,Total_Points,Points
 16,Deportivo Alavés,Pacheco,PT,16,89,0,0,63,3.9,"['7', '0', '2', '2', '-']",7,0,2,2,0,2.2,2730000
 16,Deportivo Alavés,Sivera,PT,3,11,0,0,8,2.7,"['-', '-', '-', '-', '-']",0,0,0,0,0,0.0,330000
 16,Deportivo Alavés,Laguardia,DF,17,94,2,1,79,4.6,"['2', '4', '4', '0', '-']",2,4,4,0,0,2.0,4610000
-16,Deportivo Alavés,Rubén Duarte,DF,16,83,0,1,54,3.4,"['3', '-', '4', '4', '-']",3,0,4,4,0,2.2,2450000
+16,Deportivo Alavés,Rubén Duarte,DF,16,83,0,1,54,3.4,"['3', '-', '4', '4', '-']",3,0,4,4,0,2.2,2420000
 16,Deportivo Alavés,Martín Aguirregabiria,DF,13,61,0,1,41,3.2,"['1', '5', '6', '2', '-']",1,5,6,2,0,2.8,1030000
 16,Deportivo Alavés,Lejeune,DF,11,61,0,0,36,3.3,"['2', '5', '2', '-', '-']",2,5,2,0,0,1.8,2530000
 16,Deportivo Alavés,Miazga,DF,8,33,0,0,35,4.4,"['-', '-', '-', '-', '-']",0,0,0,0,0,0.0,1190000
@@ -17,7 +17,7 @@ Team_id,Team,Player,Position,Matchs,On_start_%,Goals,Assists,Total_Points,Points
 16,Deportivo Alavés,Toni Moya,MD,17,61,0,1,53,3.1,"['2', '1', '2', '4', '-']",2,1,2,4,0,1.8,1640000
 16,Deportivo Alavés,Pere Pons,MD,13,61,1,0,37,2.8,"['4', '2', '1', '2', '-']",4,2,1,2,0,1.8,950000
 16,Deportivo Alavés,Tomás Pina,MD,15,44,0,0,37,2.5,"['2', '2', '-', '-', '-']",2,2,0,0,0,0.8,800000
-16,Deportivo Alavés,Edgar Méndez,MD,14,33,0,0,35,2.5,"['2', '2', '5', '3', '-']",2,2,5,3,0,2.4,1250000
+16,Deportivo Alavés,Edgar Méndez,MD,14,33,0,0,35,2.5,"['2', '2', '5', '3', '-']",2,2,5,3,0,2.4,1350000
 16,Deportivo Alavés,Iván Martín,MD,5,6,0,0,6,1.2,"['-', '-', '2', '-', '-']",0,0,2,0,0,0.4,510000
-16,Deportivo Alavés,Joselu,DL,18,89,9,2,129,7.2,"['11', '5', '9', '3', '-']",11,5,9,3,0,5.6,13670000
+16,Deportivo Alavés,Joselu,DL,18,89,9,2,129,7.2,"['11', '5', '9', '3', '-']",11,5,9,3,0,5.6,13560000
 16,Deportivo Alavés,Guidetti,DL,8,11,0,0,22,2.8,"['3', '-', '-', '-', '-']",3,0,0,0,0,0.6,750000

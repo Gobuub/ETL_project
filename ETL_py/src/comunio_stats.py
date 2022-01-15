@@ -63,8 +63,10 @@ def comunio_stats(team_lst, journey):
         squad = team[0] # this line give us the name of the team
         
         # With this lines get the names of the playes
-        name = soup.find_all('strong')
-        name = [name[i].text for i in range(22, (22 + players * 2), 2)]
+        #name = soup.find_all('strong') Not found since 13-01-2022
+        #name = [name[i].text for i in range(22, (22 + players * 2), 2)] Not found
+        name = soup.find_all('span', class_='titulo_ficha_jugador')
+        name = [name[i].text for i in range(players)]
         
         # With this lines we want to get the position of the players
         pos_gk = soup.find_all('span', class_='label-posicion label-success')

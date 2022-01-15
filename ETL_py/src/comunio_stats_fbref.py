@@ -21,9 +21,8 @@ def comunio_stats_fbref(team_lst, journey):
         - index[1] : Team id from the var team_id
         - index[2] : url of comuniate that give us almost of the data 
                     (Player name, Position, Season Points, Season Points Average, Value, On start average)
-        - index[3] : Number of players in the squad.
-        - index[4] : url of comuniazo that give us the points of the last 5 matchs of the each player on the squad
-        - index[5] : url of FBREF that give us the matchs played, goals, assists.
+        - index[3] : url of comuniazo that give us the points of the last 5 matchs of the each player on the squad
+        - index[4] : url of FBREF that give us the matchs played, goals, assists.
     
     Journey's Macht only works from actually journey to future journeys (we can't obtains data from past journeys with this script)
     
@@ -64,8 +63,10 @@ def comunio_stats_fbref(team_lst, journey):
         squad = team[0] # this line give us the name of the team
         
         # With this lines get the names of the playes
-        name = soup.find_all('strong')
-        name = [name[i].text for i in range(22, (22 + players * 2), 2)]
+        #name = soup.find_all('strong') Not found since 13-01-2022
+        #name = [name[i].text for i in range(22, (22 + players * 2), 2)] Not found
+        name = soup.find_all('span', class_='titulo_ficha_jugador')
+        name = [name[i].text for i in range(players)]
         
         # With this lines we want to get the position of the players
         pos_gk = soup.find_all('span', class_='label-posicion label-success')

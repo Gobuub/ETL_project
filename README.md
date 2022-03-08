@@ -65,6 +65,12 @@ Directorio principal:
    
         - Readme.md archivo con la descripción del repositorio.
 
+#### Actualización jornada 27. 8 marzo de 2022:
+
+Añadida la carpeta Project ML, en la que encontraremos notebooks con modelos de ML para predecir la puntuación de los jugadores en la próxima jornada.
+
+A partir de esta jornada se separan los data sets de comunio y de fbref, para evitar la pérdida de datos al realizar el merge, esta pérdida de datos impedía realizar un modelo de previsión de ML, incluido en la carpeta de 'Project ML'.
+
 ### It is requested:
 
 #### Carry out an ETL project with a subject of free choice in which data must be obtained with at least 2 types of extraction techniques
@@ -129,3 +135,11 @@ Main directory:
      - ETL para Dashboard, jupyter notebook for EDA of top 35 players of the journey, to make a dashboard.
      
      - Readme.md file with the description of the repository. 
+
+#### Update journey 27. 8th March 2022:
+
+
+Add directory with Project ML, inside it you can find, somo notebooks with model of ML to predict the score of the player on next journey.
+
+
+Since this data, i decide to split the dataset of comunio and fbref, because the dataleaks on merge two datasets, this merge cause some leaks on the data.

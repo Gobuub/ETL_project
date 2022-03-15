@@ -3,7 +3,7 @@ import pandas as pd
 from bs4 import BeautifulSoup as bs
 from fuzzywuzzy import process, fuzz
 
-def comunio_stats(team_lst, journey):
+def comunio_stats_fbref(team_lst, journey):
     '''
     Description.
     ------------
@@ -22,7 +22,7 @@ def comunio_stats(team_lst, journey):
         - index[2] : url of comuniate that give us almost of the data 
                     (Player name, Position, Season Points, Season Points Average, Value, On start average)
         - index[3] : url of comuniazo that give us the points of the last 5 matchs of the each player on the squad
-        - index[4] : url of espn that give us the matchs played, goals received (goalkeepers), goals, assists.
+        - index[4] : url of FBREF that give us the matchs played, goals, assists.
     
     Journey's Macht only works from actually journey to future journeys (we can't obtains data from past journeys with this script)
     
@@ -36,10 +36,16 @@ def comunio_stats(team_lst, journey):
             1 csv file with the player's squad for each team, 'data/team_name_J_number_of_journey.csv'.
             1 csv file with all the player's stats of La Liga.
             1 json file with all the player's stats of La Liga.
+            1 csv file with only stats from comunio
+            1 csv file with only stats from fbref
+            1 json file with only stats from comunio
+            1 json file with only stats from fbref
     
     '''
     
     df_teams = pd.DataFrame()
+    df_comunio = pd.DataFrame()
+    df_fbref = pd.DataFrame()
     
     for team in team_lst:
         
@@ -47,8 +53,8 @@ def comunio_stats(team_lst, journey):
         
         soup = bs(req.get(team[2]).text , 'html.parser') # soup from comuniate web
         soup2 = bs(req.get(team[3]).text , 'html.parser') # soup from comuniazo web
-        soup3 = bs(req.get(team[4]).text , 'html.parser') # soup from espn web
-
+        soup3 = bs(req.get(team[4]).text , 'html.parser') # soup from fbref web
+        
         num_players = soup.find_all('div', class_='col-md-12') # Firts count the players on the squad
         total_players = 0
         for i in range (2,6):
@@ -57,14 +63,15 @@ def comunio_stats(team_lst, journey):
                                                          class_='enlace2 ficha_jugador col-md-6 col-sm-6 col-xs-12'))
         
         players = total_players
+        print(total_players)
 
         team_id = team[1]
 
         squad = team[0] # this line give us the name of the team
         
         # With this lines get the names of the playes
-        #name = soup.find_all('strong') Not found since 13-01-2022
-        #name = [name[i].text for i in range(22, (22 + players * 2), 2)] Not found
+        #name = soup.find_all('strong') estas dos lineas dejaron de funcionar el 13 de enero de 2022
+        #name = [name[i].text for i in range(22, (22 + players * 2), 2)]
         name = soup.find_all('span', class_='titulo_ficha_jugador')
         name = [name[i].text for i in range(players)]
         
@@ -172,82 +179,51 @@ def comunio_stats(team_lst, journey):
                 'Avg_last_5_games': avg_last_5}
         
         df = pd.DataFrame(team)
+        print(f'Nº jugadores en la web de comunio {len(df.Player)}')
+        df.to_csv(f'data/pruebas/{squad}_comunio-stats_J{journey}.csv', index=False)
+        df_comunio = df_comunio.append(df)
         
-        # Second part of web scrapping to complete the stats table, with games played, goals or goal received(gk), and assists
+        # Second part of web scrapping to complete the stats table, with games played, goals, and assists
 
-        goalkeepers = soup3.find('div', class_='Table__Scroller')
-        goalkeepers_rows = goalkeepers.find_all('tr')
-        goalkeepers_stats = [[e.text for e in goalkeepers_rows[i].find_all('td')] for i in range(1,len(goalkeepers_rows))]
+        players_stats = soup3.find('tbody')
+    
+        new_name = [' '.join(players_stats.find_all('tr')[i].text.split()[0:2])[:-2] if len(players_stats.find_all('tr')[i].text.split())>2
+                    else ' '.join(players_stats.find_all('tr')[i].text.split()[0:1])[:-2] for i in range(len(players_stats.find_all('tr')))]
+    
+        new_pj = ['0' if players_stats.find_all('td', class_='right')[i].text == '' 
+                   else players_stats.find_all('td', class_='right')[i].text 
+                   for i in range (0,len(players_stats.find_all('td', class_='right')),25 )]
 
-        team_squad = soup3.find_all('div', class_='Table__Scroller')
-        team_squad_rows = team_squad[1].find_all('tr')
-        team_squad_stats = [[e.text for e in team_squad_rows[i].find_all('td')] for i in range(1,len(team_squad_rows))]
+        new_goals = ['0' if players_stats.find_all('td', class_='right')[i].text == '' 
+                   else players_stats.find_all('td', class_='right')[i].text 
+                   for i in range (4,len(players_stats.find_all('td', class_='right')),25 )]
+
+        new_assists = ['0' if players_stats.find_all('td', class_='right')[i].text == '' 
+                   else players_stats.find_all('td', class_='right')[i].text 
+                   for i in range (5,len(players_stats.find_all('td', class_='right')),25 )]
         
-        # In this list we store two dictionaries with others stats to merge with the previous dictionarie
+        pl_dict = {'Player': new_name, 'Matchs': new_pj, 'Goals': new_goals, 'Assists' : new_assists}
+
+        df_stats = pd.DataFrame(pl_dict)
         
-        pl_lst = []
-
-        for i, player in enumerate(goalkeepers_stats):
-            
-            name = ''.join([e for e in goalkeepers_stats[i][0] if e.isalpha() or e == ' '])
-            
-            if player[6] == '--': # this conditionals are for clean this serie and give correct type
-                matches = 0
-            else:
-                matches = player[6]
-            
-            if player[9] == '--':
-                goals_received = 0
-            else:
-                goals_received = player[9]
-            
-            if player[10] == '--':
-                assists = 0
-            else:
-                assists = player[10]
-
-
-            gk_dict = {'Player': name, 'Matches_Played': matches, 'Goals_/_Goals_Received': goals_received, 'Assists' : assists}
-            pl_lst.append(gk_dict)
-
-        for i, player in enumerate(team_squad_stats):
-            
-            name = ''.join([e for e in team_squad_stats[i][0] if e.isalpha() or e == ' '])
-            
-            if player[6]=='--':# this conditionals are for clean this serie and give correct type
-                matches = 0
-            else:
-                matches = player[6]
-            
-            if player[8] == '--':
-                goals = 0
-            else:
-                goals = player[8]
-            
-            if player[9] == '--':
-                assists = 0
-            else:
-                assists = player[9]
-
-
-            pl_dict = {'Player': name, 'Matches_Played': matches, 'Goals_/_Goals_Received': goals, 'Assists' : assists}
-            pl_lst.append(pl_dict)
-        
-        df_stats = pd.DataFrame(pl_lst)
+        print(f'Nº jugadores en la web de fbref {len(df_stats.Player)}')
+        df_stats.to_csv(f'data/pruebas/{squad}_fbref-stats_J{journey}.csv', index=False)
+        df_fbref = df_fbref.append(df_stats)
         
         # In this part of script we use the fuzzywuzzy lib to merge both dataframes.
         
         #This part compares both dataframes and returns a score of match in the serie that we want
         # In this case we compare the serie 'Player' of both dataframes
-        df[['team_matched', 'fuzz_score']]=df.Player.apply(lambda x:process.extractOne(x,
+        df[['team_matched', 'fuzz_score']]=df_stats.Player.apply(lambda x:process.extractOne(x,
                                                                      df_stats.Player.tolist(),
                                                                      scorer=fuzz.partial_ratio)).apply(pd.Series)
         
         # merge the both daframes
         df=pd.merge(df, df_stats, left_on='team_matched', right_on='Player')
         
-        # Create a new datafram only with the values of fuzzy score are greater than 85
-        df_1=df[df.fuzz_score>85]
+        # Create a new datafram only with the values of fuzzy score are greater than 75
+        
+        df_1=df[df.fuzz_score>75]
         
         #The next line drops the columns that not are necessary on dataframe
         df_1 = df_1.drop(columns = ['team_matched', 'fuzz_score', 'Player_y'])
@@ -263,10 +239,17 @@ def comunio_stats(team_lst, journey):
         
         df_teams = df_teams.append(df_1) # add the df of the team to the df of all teams
         
-        df_1.to_csv(f'./data/{squad}_J{journey}.csv', index=False) # export df_team to a team file
+        df_1.to_csv(f'data/pruebas/{squad}_J{journey}.csv', index=False) # export df_team to a team file
     
     
-    df_teams.to_json(f'./data/comunio_J{journey}.json', orient="table") # export df of all teams to json file
-    df_teams.to_csv(f'./data/comunio_J{journey}.csv', index=False) # export df o all teams to csv file
+    df_teams.to_json(f'data/pruebas/comunio_J{journey}.json', orient="table") # export df of all teams to json file
+    df_teams.to_csv(f'data/pruebas/comunio_J{journey}.csv', index=False) # export df o all teams to csv file
+    df_comunio.to_json(f'data/pruebas/only_comunio_stats_J{journey}.json', orient="table")
+    df_fbref.to_json(f'data/pruebas/only_fbref_stats_J{journey}.json', orient="table")
+    df_comunio.to_csv(f'data/pruebas/only_comunio_stats_J{journey}.csv', index=False)
+    df_fbref.to_csv(f'data/pruebas/only_fbref_stats_J{journey}.csv', index=False)
     
+    print('Jugadores en fbref ',len(df_fbref))
+    print('Jugadores en comunio ',len(df_comunio))
+    print('Jugadores en lista combinada ', len(df_teams))
     return 'Finished'

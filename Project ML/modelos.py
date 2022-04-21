@@ -1,17 +1,13 @@
 import pandas as pd
-from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.metrics import mean_squared_error
-from xgboost import XGBRegressor
-from sklearn.ensemble import GradientBoostingRegressor
-
+import pickle
 
 
 class comunio_pred_lib():
     
     def create_df(journey):
         comunio = pd.read_csv(f'../data/pruebas/only_comunio_stats_J{journey}.csv')
-        clas = pd.read_excel(f'../data/classification_J_{journey}.xlsx', sheet_name=f'classification_J_{journey}', index_col='Unnamed: 0')
+        clas = pd.read_excel(f'../data/classification_J_{journey}.xlsx', 
+                             sheet_name=f'classification_J_{journey}', index_col='Unnamed: 0')
         cal = pd.read_csv('../data/pruebas/Season_21-22.csv')
         
         teams_dict = {'Athletic Club': 'Athletic Club' ,
@@ -119,74 +115,30 @@ class comunio_pred_lib():
         
         return df_2.drop('Team_id', axis=1)
     
-    def preprocess_data(train,target,journey):
-        j_target = target[['Player',f'J_{journey}']]
-        j_target= j_target.rename(columns={'Player': 'Jugador', f'J_{journey}':'Target'})
-        df= train.merge(j_target, how='left', left_on='Player', right_on='Jugador')
-        df = df.dropna()
-        X = df.drop(['Target'], axis=1)._get_numeric_data()
-        y = df.Target
-        
-                    
-        return X, y
-    
     
     def predict_rf(data):
-        train = comunio_pred_lib.create_df(30)
-        target = comunio_pred_lib.create_df(31)
-        rf = RandomForestRegressor()
-        X,y = comunio_pred_lib.preprocess_data(train,target,31)
-        
-        X_train, X_test, y_train, y_test = train_test_split(X,y, random_state=42)
-                
-        rf.fit(X_train,y_train)
-        
-        print('RF MSE en test',mean_squared_error(y_test, rf.predict(X_test)))
-        
-        rf.fit(X,y)
+        model = pickle.load(open('comunio_rfr.model', 'rb'))
         
         data = pd.DataFrame(data)._get_numeric_data()
         
-        pred = rf.predict(data)
+        pred = model.predict(data)
         
         return pred
     
     def predict_xgb(data):
-        train = comunio_pred_lib.create_df(30)
-        target = comunio_pred_lib.create_df(31)
-        xgb = XGBRegressor()
-        X,y = comunio_pred_lib.preprocess_data(train,target,31)
-        
-        X_train, X_test, y_train, y_test = train_test_split(X,y, random_state=42)
-                
-        xgb.fit(X_train,y_train)
-        
-        print('XGB MSE en test', mean_squared_error(y_test, xgb.predict(X_test)))
-        
-        xgb.fit(X,y)
+        model = pickle.load(open('comunio_xgbr.model', 'rb'))
         
         data = pd.DataFrame(data)._get_numeric_data()
         
-        pred = xgb.predict(data)
+        pred = model.predict(data)
         
         return pred
     
     def predict_gb(data):
-        train = comunio_pred_lib.create_df(30)
-        target = comunio_pred_lib.create_df(31)
-        gb = GradientBoostingRegressor()
-        X,y = comunio_pred_lib.preprocess_data(train,target,31)
-        
-        X_train, X_test, y_train, y_test = train_test_split(X,y, random_state=42)
-                
-        gb.fit(X_train,y_train)
-        
-        print('GB MSE en test', mean_squared_error(y_test, gb.predict(X_test)))
-        
-        gb.fit(X,y)
+        model = pickle.load(open('comunio_gb.model', 'rb'))
         
         data = pd.DataFrame(data)._get_numeric_data()
         
-        pred = gb.predict(data)
+        pred = model.predict(data)
         
         return pred

@@ -1,0 +1,25 @@
+Team_id,Team,Player,Position,Total_Points,Points_Average,Value,On_start_%,Last_5_games_points,J_29,J_30,J_31,J_32,J_33,Avg_last_5_games
+9,Rayo Vallecano de Madrid,Dimitrievski,PT,124,4.8,2660000,78,"['3', '7', '2', '2', '9']",3,7,2,2,9,4.6
+9,Rayo Vallecano de Madrid,Luca Zidane,PT,11,1.6,590000,22,"['-', '-', '-', '-', '-']",0,0,0,0,0,0.0
+9,Rayo Vallecano de Madrid,Catena,DF,151,5,3580000,94,"['4', '13', '4', '5', '8']",4,13,4,5,8,6.8
+9,Rayo Vallecano de Madrid,Fran García,DF,111,3.8,3040000,91,"['2', '2', '-', '4', '5']",2,2,0,4,5,2.6
+9,Rayo Vallecano de Madrid,Balliu,DF,106,3.5,2360000,94,"['5', '5', '5', '-4', '-']",5,5,5,-4,0,2.2
+9,Rayo Vallecano de Madrid,Saveljich,DF,69,3.3,1040000,66,"['-', '-', '-', '-', '-']",0,0,0,0,0,0.0
+9,Rayo Vallecano de Madrid,Nikola Maras,DF,35,3.2,550000,22,"['-', '1', '5', '2', '5']",0,1,5,2,5,2.6
+9,Rayo Vallecano de Madrid,Mario Hernández,DF,23,3.8,590000,9,"['-', '1', '-', '3', '4']",0,1,0,3,4,1.6
+9,Rayo Vallecano de Madrid,Kevin Rodrigues,DF,20,2,470000,13,"['-', '-', '1', '-', '-']",0,0,1,0,0,0.2
+9,Rayo Vallecano de Madrid,Álvaro García,MD,161,5.4,6100000,88,"['2', '7', '5', '4', '4']",2,7,5,4,4,4.4
+9,Rayo Vallecano de Madrid,Trejo,MD,148,5.1,6570000,72,"['7', '-', '3', '3', '2']",7,0,3,3,2,3.0
+9,Rayo Vallecano de Madrid,Comesaña,MD,131,4.4,4950000,88,"['2', '-1', '-', '4', '5']",2,-1,0,4,5,2.0
+9,Rayo Vallecano de Madrid,Óscar Valentín,MD,120,4.1,2670000,75,"['4', '5', '9', '4', '5']",4,5,9,4,5,5.4
+9,Rayo Vallecano de Madrid,Isi Palazón,MD,116,3.7,4010000,75,"['2', '5', '6', '8', '6']",2,5,6,8,6,5.4
+9,Rayo Vallecano de Madrid,Bebé,MD,93,3.7,2200000,13,"['0', '-', '2', '2', '-']",0,0,2,2,0,0.8
+9,Rayo Vallecano de Madrid,Pathé Ciss,MD,84,3.2,1690000,28,"['2', '4', '0', '-', '4']",2,4,0,0,4,2.0
+9,Rayo Vallecano de Madrid,Unai López,MD,62,2.8,1090000,28,"['-', '1', '2', '1', '2']",0,1,2,1,2,1.2
+9,Rayo Vallecano de Madrid,Mario Suárez,MD,17,1.7,1010000,19,"['2', '0', '-', '-', '-']",2,0,0,0,0,0.4
+9,Rayo Vallecano de Madrid,Merquelanz,MD,13,3.3,520000,9,"['-', '-', '-', '-', '-']",0,0,0,0,0,0.0
+9,Rayo Vallecano de Madrid,Álvaro Aguirre,MD,2,2,210000,0,"['-', '-', '-', '-', '-']",0,0,0,0,0,0.0
+9,Rayo Vallecano de Madrid,Sergi Guardiola,DL,114,4.2,4110000,53,"['4', '10', '9', '1', '9']",4,10,9,1,9,6.6
+9,Rayo Vallecano de Madrid,Randy Nteka,DL,91,3.3,2270000,38,"['2', '2', '3', '5', '-']",2,2,3,5,0,2.4
+9,Rayo Vallecano de Madrid,Falcao,DL,79,4.6,4020000,22,"['-', '-', '-', '-', '-']",0,0,0,0,0,0.0
+9,Rayo Vallecano de Madrid,Mamadou Sylla,DL,51,2.3,770000,16,"['4', '2', '4', '-', '-']",4,2,4,0,0,2.0

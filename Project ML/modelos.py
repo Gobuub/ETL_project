@@ -115,6 +115,24 @@ class comunio_pred_lib():
         
         return df_2.drop('Team_id', axis=1)
     
+    def preprocess_data(df):
+    
+        X = df.drop(['Target'], axis=1)._get_numeric_data()
+        y = df.Target
+
+        x_scaler = MinMaxScaler()
+        y_scaler = MinMaxScaler()
+
+        X_train, X_test, y_train, y_test = train_test_split(X,y, random_state=42)
+
+        X_train_s = x_scaler.fit_transform(X_train)
+        X_test_s = x_scaler.transform(X_test)
+
+        y_train_s = y_scaler.fit_transform(y_train.values.reshape(-1,1))
+        y_test_s = y_scaler.transform(y_test.values.reshape(-1,1))
+
+        return X, y, X_train, X_test, y_train, y_test ,X_train_s, X_test_s, y_train_s, y_test_s, x_scaler, y_scaler
+    
     
     def predict_rf(data):
         model = pickle.load(open('comunio_rfr.model', 'rb'))
@@ -140,5 +158,23 @@ class comunio_pred_lib():
         data = pd.DataFrame(data)._get_numeric_data()
         
         pred = model.predict(data)
+        
+        return pred
+    
+    def predict_rnn(data, x_scaler, y_scaler):
+        model = pickle.load(open('comunio_rnn.model', 'rb'))
+        
+        data = pd.DataFrame(data)._get_numeric_data()
+        
+        pred = y_scaler.inverse_transform(model.predict(x_scaler.transform(data)))
+        
+        return pred
+    
+    def predict_rnn2(data, x_scaler, y_scaler):
+        model = pickle.load(open('comunio_rnn_2.model', 'rb'))
+        
+        data = pd.DataFrame(data)._get_numeric_data()
+        
+        pred = y_scaler.inverse_transform(model.predict(x_scaler.transform(data)))
         
         return pred

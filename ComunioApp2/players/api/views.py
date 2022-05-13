@@ -3,7 +3,7 @@ from rest_framework import status
 from rest_framework.response import Response
 from rest_framework.viewsets import ViewSet, ModelViewSet
 
-from players.api.serializer import PlayerSerializer
+from players.api.serializer import PlayerSerializer, TeamSerializer
 from players.models import Players
 
 
@@ -63,3 +63,9 @@ class PlayersApiView(ModelViewSet):
             Vs_Value_Squad = serializers.IntegerField()
             Team_clas = serializers.IntegerField()
             Vs_Team_clas = serializers.IntegerField()'''
+
+
+class TeamApiView(ModelViewSet):
+    team = input('Team')
+    queryset = Players.objects.filter(Team = team )
+    serializer_class = TeamSerializer

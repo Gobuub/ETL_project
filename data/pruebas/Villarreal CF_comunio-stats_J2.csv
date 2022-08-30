@@ -1,0 +1,26 @@
+Team_id,Team,Player,Position,Total_Points,Points_Average,Value,On_start_%,Last_5_games_points,J_2,J_1,J_0,J_-1,J_-2,Avg_last_5_games
+12,Villarreal CF,Rulli,PT,23,11.5,4210000,100,"['12', '11', 0, 0, 0]",12,11,0,0,0,4.6
+12,Villarreal CF,Pepe Reina,PT,0,0,910000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+12,Villarreal CF,Juan Foyth,DF,13,6.5,4390000,100,"['3', '10', 0, 0, 0]",3,10,0,0,0,2.6
+12,Villarreal CF,Alfonso Pedraza,DF,12,6,3730000,100,"['4', '8', 0, 0, 0]",4,8,0,0,0,2.4
+12,Villarreal CF,Albiol,DF,11,5.5,4490000,100,"['4', '7', 0, 0, 0]",4,7,0,0,0,2.2
+12,Villarreal CF,Pau Torres,DF,10,5,8180000,100,"['3', '7', 0, 0, 0]",3,7,0,0,0,2.0
+12,Villarreal CF,Aïssa Mandi,DF,2,2,1050000,0,"['2', '-', 0, 0, 0]",2,0,0,0,0,0.4
+12,Villarreal CF,Jorge Cuenca,DF,0,0,1240000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+12,Villarreal CF,Kiko Femenía,DF,0,0,1230000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+12,Villarreal CF,Álex Baena,MD,23,11.5,2940000,0,"['19', '4', 0, 0, 0]",19,4,0,0,0,4.6
+12,Villarreal CF,Parejo,MD,18,9,16360000,100,"['10', '8', 0, 0, 0]",10,8,0,0,0,3.6
+12,Villarreal CF,Yéremi Pino,MD,15,7.5,8690000,100,"['7', '8', 0, 0, 0]",7,8,0,0,0,3.0
+12,Villarreal CF,Capoue,MD,9,4.5,6000000,100,"['5', '4', 0, 0, 0]",5,4,0,0,0,1.8
+12,Villarreal CF,Coquelin,MD,8,4,3730000,50,"['6', '2', 0, 0, 0]",6,2,0,0,0,1.6
+12,Villarreal CF,Samu Chukwueze,MD,7,3.5,3810000,0,"['5', '2', 0, 0, 0]",5,2,0,0,0,1.4
+12,Villarreal CF,Lo Celso,MD,3,3,8770000,50,"['-', '3', 0, 0, 0]",0,3,0,0,0,0.6
+12,Villarreal CF,Morlanes,MD,0,0,650000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+12,Villarreal CF,Alberto Moreno,MD,0,0,1020000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+12,Villarreal CF,Carlo Adriano,MD,0,0,330000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+12,Villarreal CF,Trigueros,MD,0,0,2820000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+12,Villarreal CF,Nicolas Jackson,DL,12,6,3080000,100,"['10', '2', 0, 0, 0]",10,2,0,0,0,2.4
+12,Villarreal CF,Gerard Moreno,DL,8,4,17440000,100,"['2', '6', 0, 0, 0]",2,6,0,0,0,1.6
+12,Villarreal CF,Morales,DL,4,2,7150000,0,"['2', '2', 0, 0, 0]",2,2,0,0,0,0.8
+12,Villarreal CF,Danjuma,DL,0,0,8000000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+12,Villarreal CF,Fernando Niño,DL,0,0,1000000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0

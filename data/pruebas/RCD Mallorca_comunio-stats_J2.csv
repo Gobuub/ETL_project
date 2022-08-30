@@ -1,0 +1,27 @@
+Team_id,Team,Player,Position,Total_Points,Points_Average,Value,On_start_%,Last_5_games_points,J_2,J_1,J_0,J_-1,J_-2,Avg_last_5_games
+9,RCD Mallorca,Rajkovic,PT,12,6,4000000,100,"['11', '1', 0, 0, 0]",11,1,0,0,0,2.4
+9,RCD Mallorca,Greif,PT,0,0,240000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+9,RCD Mallorca,Leo Román,PT,0,0,1040000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+9,RCD Mallorca,Martin Valjent,DF,11,5.5,1870000,100,"['8', '3', 0, 0, 0]",8,3,0,0,0,2.2
+9,RCD Mallorca,Maffeo,DF,9,4.5,3350000,100,"['5', '4', 0, 0, 0]",5,4,0,0,0,1.8
+9,RCD Mallorca,Copete,DF,9,4.5,2520000,100,"['7', '2', 0, 0, 0]",7,2,0,0,0,1.8
+9,RCD Mallorca,Raíllo,DF,8,4,2800000,100,"['5', '3', 0, 0, 0]",5,3,0,0,0,1.6
+9,RCD Mallorca,Jaume Costa,DF,8,4,1970000,100,"['3', '5', 0, 0, 0]",3,5,0,0,0,1.6
+9,RCD Mallorca,Braian Cufré,DF,0,0,410000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+9,RCD Mallorca,Josep Gayá,DF,0,0,230000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+9,RCD Mallorca,Giovanni González,DF,0,0,350000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+9,RCD Mallorca,Franco Russo,DF,0,0,420000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+9,RCD Mallorca,Kang-In Lee,MD,15,7.5,1780000,100,"['4', '11', 0, 0, 0]",4,11,0,0,0,3.0
+9,RCD Mallorca,Grenier,MD,8,4,2200000,100,"['4', '4', 0, 0, 0]",4,4,0,0,0,1.6
+9,RCD Mallorca,Idrissu Baba,MD,6,3,2080000,0,"['2', '4', 0, 0, 0]",2,4,0,0,0,1.2
+9,RCD Mallorca,Lago Júnior,MD,4,2,390000,0,"['4', '0', 0, 0, 0]",4,0,0,0,0,0.8
+9,RCD Mallorca,Dani Rodríguez,MD,4,2,3460000,100,"['2', '2', 0, 0, 0]",2,2,0,0,0,0.8
+9,RCD Mallorca,Antonio Sánchez,MD,3,1.5,500000,0,"['4', '-1', 0, 0, 0]",4,-1,0,0,0,0.6
+9,RCD Mallorca,Rodrigo Battaglia,MD,3,1.5,1240000,100,"['1', '2', 0, 0, 0]",1,2,0,0,0,0.6
+9,RCD Mallorca,Mboula,MD,0,0,270000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+9,RCD Mallorca,Ruiz de Galarreta,MD,0,0,670000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+9,RCD Mallorca,Amath Ndiaye,MD,0,0,310000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+9,RCD Mallorca,Javi Llabres,MD,0,0,210000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+9,RCD Mallorca,Muriqi,DL,11,5.5,10040000,100,"['2', '9', 0, 0, 0]",2,9,0,0,0,2.2
+9,RCD Mallorca,Abdón Prats,DL,6,3,620000,0,"['2', '4', 0, 0, 0]",2,4,0,0,0,1.2
+9,RCD Mallorca,Ángel Rodríguez,DL,0,0,1640000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0

@@ -1,0 +1,26 @@
+Team_id,Team,Player,Position,Total_Points,Points_Average,Value,On_start_%,Last_5_games_points,J_2,J_1,J_0,J_-1,J_-2,Avg_last_5_games
+8,Rayo Vallecano de Madrid,Dimitrievski,PT,17,8.5,3640000,100,"['11', '6', 0, 0, 0]",11,6,0,0,0,3.4
+8,Rayo Vallecano de Madrid,Miguel Morro,PT,0,0,180000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+8,Rayo Vallecano de Madrid,Diego López,PT,0,0,2620000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+8,Rayo Vallecano de Madrid,Catena,DF,11,5.5,4210000,100,"['6', '5', 0, 0, 0]",6,5,0,0,0,2.2
+8,Rayo Vallecano de Madrid,Fran García,DF,8,4,3600000,100,"['5', '3', 0, 0, 0]",5,3,0,0,0,1.6
+8,Rayo Vallecano de Madrid,Balliu,DF,8,4,1980000,100,"['2', '6', 0, 0, 0]",2,6,0,0,0,1.6
+8,Rayo Vallecano de Madrid,Mario Suárez,DF,2,2,480000,0,"['-', '2', 0, 0, 0]",0,2,0,0,0,0.4
+8,Rayo Vallecano de Madrid,Mario Hernández,DF,0,0,410000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+8,Rayo Vallecano de Madrid,Saveljich,DF,0,0,790000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+8,Rayo Vallecano de Madrid,Lejeune,DF,-1,-0.5,2320000,100,"['5', '-6', 0, 0, 0]",5,-6,0,0,0,-0.2
+8,Rayo Vallecano de Madrid,Pathé Ciss,MD,19,9.5,2190000,100,"['7', '12', 0, 0, 0]",7,12,0,0,0,3.8
+8,Rayo Vallecano de Madrid,Isi Palazón,MD,16,8,4150000,100,"['7', '9', 0, 0, 0]",7,9,0,0,0,3.2
+8,Rayo Vallecano de Madrid,Álvaro García,MD,9,4.5,7430000,100,"['3', '6', 0, 0, 0]",3,6,0,0,0,1.8
+8,Rayo Vallecano de Madrid,Unai López,MD,7,3.5,930000,100,"['2', '5', 0, 0, 0]",2,5,0,0,0,1.4
+8,Rayo Vallecano de Madrid,Óscar Valentín,MD,6,3,2430000,0,"['4', '2', 0, 0, 0]",4,2,0,0,0,1.2
+8,Rayo Vallecano de Madrid,Salvi,MD,6,3,600000,0,"['2', '4', 0, 0, 0]",2,4,0,0,0,1.2
+8,Rayo Vallecano de Madrid,Trejo,MD,4,2,6360000,100,"['2', '2', 0, 0, 0]",2,2,0,0,0,0.8
+8,Rayo Vallecano de Madrid,Pozo,MD,4,4,630000,0,"['4', '-', 0, 0, 0]",4,0,0,0,0,0.8
+8,Rayo Vallecano de Madrid,Comesaña,MD,0,0,2890000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+8,Rayo Vallecano de Madrid,Álvaro Aguirre,MD,0,0,210000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+8,Rayo Vallecano de Madrid,Bebé,MD,0,0,1160000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+8,Rayo Vallecano de Madrid,Randy Nteka,DL,4,4,1400000,0,"['2', '2', 0, 0, 0]",2,2,0,0,0,0.8
+8,Rayo Vallecano de Madrid,Sergio Camello,DL,4,2,2380000,100,"['-', '4', 0, 0, 0]",0,4,0,0,0,0.8
+8,Rayo Vallecano de Madrid,Falcao,DL,3,1.5,4450000,0,"['2', '1', 0, 0, 0]",2,1,0,0,0,0.6
+8,Rayo Vallecano de Madrid,Andrés Martín,DL,0,0,210000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0

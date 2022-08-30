@@ -1,0 +1,30 @@
+Team_id,Team,Player,Position,Total_Points,Points_Average,Value,On_start_%,Last_5_games_points,J_3,J_2,J_1,J_0,J_-1,Avg_last_5_games
+13,Valencia CF,Mamardashvili,PT,16,5.3,3130000,100,"['6', '2', '7', 0, 0]",6,2,7,0,0,3.0
+13,Valencia CF,Jaume Doménech,PT,0,0,420000,0,"['-', '-', '-', 0, 0]",0,0,0,0,0,0.0
+13,Valencia CF,Thierry Correia,DF,12,4,3430000,100,"['2', '7', '3', 0, 0]",2,7,3,0,0,2.4
+13,Valencia CF,Lato,DF,9,3,380000,33,"['2', '2', '5', 0, 0]",2,2,5,0,0,1.8
+13,Valencia CF,Diakhaby,DF,8,2.7,1870000,100,"['3', '2', '3', 0, 0]",3,2,3,0,0,1.6
+13,Valencia CF,Foulquier,DF,8,2.7,1480000,0,"['2', '4', '2', 0, 0]",2,4,2,0,0,1.6
+13,Valencia CF,Gabriel Paulista,DF,5,5,4710000,33,"['-', '5', '-', 0, 0]",0,5,0,0,0,1.0
+13,Valencia CF,Cristhian Mosquera,DF,4,4,560000,0,"['4', '-', '-', 0, 0]",4,0,0,0,0,0.8
+13,Valencia CF,Jesús Vázquez,DF,3,1.5,1590000,67,"['3', '0', '-', 0, 0]",3,0,0,0,0,0.6
+13,Valencia CF,Cömert,DF,1,0.5,580000,67,"['-3', '-', '6', 0, 0]",-3,0,6,0,0,0.6
+13,Valencia CF,Gayà,DF,0,0,4820000,0,"['-', '-', '-', 0, 0]",0,0,0,0,0,0.0
+13,Valencia CF,Rubén Iranzo,DF,0,0,200000,0,"['-', '-', '-', 0, 0]",0,0,0,0,0,0.0
+13,Valencia CF,Özkacar,DF,0,0,980000,0,"['-', '-', '-', 0, 0]",0,0,0,0,0,0.0
+13,Valencia CF,Carlos Soler,MD,18,6,13730000,100,"['10', '5', '4', 0, 0]",10,5,4,0,0,3.8
+13,Valencia CF,Samu Castillejo,MD,11,3.7,7630000,100,"['3', '4', '4', 0, 0]",3,4,4,0,0,2.2
+13,Valencia CF,Yunus Musah,MD,11,3.7,1470000,100,"['5', '4', '2', 0, 0]",5,4,2,0,0,2.2
+13,Valencia CF,Samuel Lino,MD,11,3.7,5040000,100,"['2', '3', '6', 0, 0]",2,3,6,0,0,2.2
+13,Valencia CF,Guillamón,MD,10,3.3,2680000,100,"['4', '2', '4', 0, 0]",4,2,4,0,0,2.0
+13,Valencia CF,Nico González,MD,9,3,3730000,0,"['3', '2', '4', 0, 0]",3,2,4,0,0,1.8
+13,Valencia CF,Fran Pérez,MD,0,0,160000,0,"['-', '-', '-', 0, 0]",0,0,0,0,0,0.0
+13,Valencia CF,Racic,MD,0,0,650000,0,"['-', '-', '-', 0, 0]",0,0,0,0,0,0.0
+13,Valencia CF,Jesús Santiago,MD,0,0,390000,0,"['-', '-', '-', 0, 0]",0,0,0,0,0,0.0
+13,Valencia CF,André Almeida,MD,0,0,1520000,0,"['-', '-', '-', 0, 0]",0,0,0,0,0,0.0
+13,Valencia CF,Marcos André,DL,7,3.5,2370000,33,"['-', '3', '4', 0, 0]",0,3,4,0,0,1.4
+13,Valencia CF,Hugo Duro,DL,6,3,4150000,67,"['4', '2', '-', 0, 0]",4,2,0,0,0,1.2
+13,Valencia CF,Maxi Gómez,DL,5,1.7,3640000,0,"['2', '2', '1', 0, 0]",2,2,1,0,0,1.0
+13,Valencia CF,Diego López Noguerol,DL,2,2,160000,0,"['-', '-', '-', 0, 0]",0,0,0,0,0,0.0
+13,Valencia CF,Cavani,DL,0,0,4000000,0,"['-', '-', '-', 0, 0]",0,0,0,0,0,0.0
+13,Valencia CF,Manu Vallejo,DL,0,0,450000,0,"['-', '-', '-', 0, 0]",0,0,0,0,0,0.0

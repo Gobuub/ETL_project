@@ -1,0 +1,27 @@
+Team_id,Team,Player,Position,Total_Points,Points_Average,Value,On_start_%,Last_5_games_points,J_2,J_1,J_0,J_-1,J_-2,Avg_last_5_games
+13,Valencia CF,Mamardashvili,PT,8,4,3130000,100,"['6', '2', 0, 0, 0]",6,2,0,0,0,1.6
+13,Valencia CF,Jaume Doménech,PT,0,0,420000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+13,Valencia CF,Thierry Correia,DF,9,4.5,2970000,100,"['2', '7', 0, 0, 0]",2,7,0,0,0,1.8
+13,Valencia CF,Foulquier,DF,6,3,1480000,0,"['2', '4', 0, 0, 0]",2,4,0,0,0,1.2
+13,Valencia CF,Diakhaby,DF,5,2.5,1820000,100,"['-', '5', 0, 0, 0]",0,5,0,0,0,1.0
+13,Valencia CF,Gabriel Paulista,DF,5,5,4510000,50,"['3', '2', 0, 0, 0]",3,2,0,0,0,1.0
+13,Valencia CF,Lato,DF,4,2,380000,0,"['4', '-', 0, 0, 0]",4,0,0,0,0,0.8
+13,Valencia CF,Cristhian Mosquera,DF,4,4,540000,0,"['2', '2', 0, 0, 0]",2,2,0,0,0,0.8
+13,Valencia CF,Jesús Vázquez,DF,3,1.5,1530000,100,"['3', '0', 0, 0, 0]",3,0,0,0,0,0.6
+13,Valencia CF,Gayà,DF,0,0,4760000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+13,Valencia CF,Rubén Iranzo,DF,0,0,200000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+13,Valencia CF,Özkacar,DF,0,0,500000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+13,Valencia CF,Cömert,DF,-3,-3,500000,50,"['-3', '-', 0, 0, 0]",-3,0,0,0,0,-0.6
+13,Valencia CF,Carlos Soler,MD,15,7.5,14340000,100,"['10', '5', 0, 0, 0]",10,5,0,0,0,3.0
+13,Valencia CF,Samuel Lino,MD,9,4.5,4960000,100,"['5', '4', 0, 0, 0]",5,4,0,0,0,1.8
+13,Valencia CF,Samu Castillejo,MD,7,3.5,7540000,100,"['3', '4', 0, 0, 0]",3,4,0,0,0,1.4
+13,Valencia CF,Guillamón,MD,6,3,2870000,100,"['4', '2', 0, 0, 0]",4,2,0,0,0,1.2
+13,Valencia CF,Nico González,MD,5,2.5,3610000,0,"['3', '2', 0, 0, 0]",3,2,0,0,0,1.0
+13,Valencia CF,Yunus Musah,MD,5,2.5,1520000,100,"['2', '3', 0, 0, 0]",2,3,0,0,0,1.0
+13,Valencia CF,Racic,MD,0,0,690000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+13,Valencia CF,Jesús Santiago,MD,0,0,420000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+13,Valencia CF,Koba,MD,0,0,300000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+13,Valencia CF,Hugo Duro,DL,6,3,4410000,100,"['4', '2', 0, 0, 0]",4,2,0,0,0,1.2
+13,Valencia CF,Maxi Gómez,DL,4,2,3420000,0,"['2', '2', 0, 0, 0]",2,2,0,0,0,0.8
+13,Valencia CF,Marcos André,DL,3,3,2180000,0,"['-', '3', 0, 0, 0]",0,3,0,0,0,0.6
+13,Valencia CF,Manu Vallejo,DL,0,0,410000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0

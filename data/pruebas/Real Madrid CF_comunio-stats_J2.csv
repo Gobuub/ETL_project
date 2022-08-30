@@ -1,0 +1,26 @@
+Team_id,Team,Player,Position,Total_Points,Points_Average,Value,On_start_%,Last_5_games_points,J_2,J_1,J_0,J_-1,J_-2,Avg_last_5_games
+7,Real Madrid CF,Courtois,PT,9,4.5,8090000,100,"['7', '2', 0, 0, 0]",7,2,0,0,0,1.8
+7,Real Madrid CF,Lunin,PT,0,0,470000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+7,Real Madrid CF,Alaba,DF,19,9.5,9860000,50,"['14', '5', 0, 0, 0]",14,5,0,0,0,3.8
+7,Real Madrid CF,Lucas Vázquez,DF,16,8,4310000,50,"['14', '2', 0, 0, 0]",14,2,0,0,0,3.2
+7,Real Madrid CF,Ferland Mendy,DF,7,3.5,5910000,100,"['2', '5', 0, 0, 0]",2,5,0,0,0,1.4
+7,Real Madrid CF,Rüdiger,DF,6,3,10750000,50,"['4', '2', 0, 0, 0]",4,2,0,0,0,1.2
+7,Real Madrid CF,Nacho Fernández,DF,4,4,1820000,50,"['4', '-', 0, 0, 0]",4,0,0,0,0,0.8
+7,Real Madrid CF,Carvajal,DF,3,3,5960000,50,"['-', '3', 0, 0, 0]",0,3,0,0,0,0.6
+7,Real Madrid CF,Éder Militão,DF,2,2,8180000,50,"['-', '2', 0, 0, 0]",0,2,0,0,0,0.4
+7,Real Madrid CF,Odriozola,DF,0,0,600000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+7,Real Madrid CF,Jesús Vallejo,DF,0,0,620000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+7,Real Madrid CF,Modric,MD,20,10,13610000,50,"['4', '16', 0, 0, 0]",4,16,0,0,0,4.0
+7,Real Madrid CF,Fede Valverde,MD,20,10,11820000,100,"['8', '12', 0, 0, 0]",8,12,0,0,0,4.0
+7,Real Madrid CF,Tchouaméni,MD,12,6,7610000,100,"['4', '8', 0, 0, 0]",4,8,0,0,0,2.4
+7,Real Madrid CF,Camavinga,MD,9,4.5,7420000,100,"['9', '-', 0, 0, 0]",9,0,0,0,0,1.8
+7,Real Madrid CF,Kroos,MD,9,9,15160000,50,"['4', '5', 0, 0, 0]",4,5,0,0,0,1.8
+7,Real Madrid CF,Dani Ceballos,MD,6,3,2480000,0,"['3', '3', 0, 0, 0]",3,3,0,0,0,1.2
+7,Real Madrid CF,Vinícius Júnior,DL,21,10.5,26110000,100,"['7', '14', 0, 0, 0]",7,14,0,0,0,4.2
+7,Real Madrid CF,Benzema,DL,10,5,28410000,100,"['3', '7', 0, 0, 0]",3,7,0,0,0,2.0
+7,Real Madrid CF,Asensio,DL,3,3,4240000,0,"['-', '3', 0, 0, 0]",0,3,0,0,0,0.6
+7,Real Madrid CF,Eden Hazard,DL,1,0.5,6480000,0,"['4', '-3', 0, 0, 0]",4,-3,0,0,0,0.2
+7,Real Madrid CF,Mariano Díaz,DL,0,0,1430000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+7,Real Madrid CF,Peter González,DL,0,0,650000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+7,Real Madrid CF,Latasa,DL,0,0,740000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+7,Real Madrid CF,Rodrygo,DL,0,0,8400000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0

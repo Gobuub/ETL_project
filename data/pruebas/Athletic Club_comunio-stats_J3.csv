@@ -1,0 +1,27 @@
+Team_id,Team,Player,Position,Total_Points,Points_Average,Value,On_start_%,Last_5_games_points,J_3,J_2,J_1,J_0,J_-1,Avg_last_5_games
+1,Athletic Club,Unai Simón,PT,21,7,4460000,100,"['8', '5', '6', 0, 0]",8,5,6,0,0,3.8
+1,Athletic Club,Agirrezabala,PT,0,0,390000,0,"['-', '-', '-', 0, 0]",0,0,0,0,0,0.0
+1,Athletic Club,Ander Iru,PT,0,0,370000,0,"['-', '-', '-', 0, 0]",0,0,0,0,0,0.0
+1,Athletic Club,De Marcos,DF,23,7.7,3210000,100,"['6', '8', '8', 0, 0]",6,8,8,0,0,4.4
+1,Athletic Club,Yeray Álvarez,DF,22,7.3,4590000,100,"['7', '7', '8', 0, 0]",7,7,8,0,0,4.4
+1,Athletic Club,Daniel Vivian,DF,18,6,3280000,100,"['5', '4', '8', 0, 0]",5,4,8,0,0,3.4
+1,Athletic Club,Yuri Berchiche,DF,14,7,5920000,67,"['8', '6', '-', 0, 0]",8,6,0,0,0,2.8
+1,Athletic Club,Lekue,DF,8,8,660000,33,"['-', '-', '8', 0, 0]",0,0,8,0,0,1.6
+1,Athletic Club,Capa,DF,0,0,710000,0,"['-', '-', '-', 0, 0]",0,0,0,0,0,0.0
+1,Athletic Club,Iñigo Martínez,DF,0,0,5610000,0,"['-', '-', '-', 0, 0]",0,0,0,0,0,0.0
+1,Athletic Club,Balenziaga,DF,0,0,360000,0,"['-', '-', '-', 0, 0]",0,0,0,0,0,0.0
+1,Athletic Club,Álex Berenguer,MD,26,8.7,4620000,100,"['4', '11', '11', 0, 0]",4,11,11,0,0,5.2
+1,Athletic Club,Muniain,MD,18,6,12040000,100,"['3', '8', '7', 0, 0]",3,8,7,0,0,3.6
+1,Athletic Club,Mikel Vesga,MD,17,5.7,2010000,100,"['7', '5', '5', 0, 0]",7,5,5,0,0,3.4
+1,Athletic Club,Nico Williams,MD,17,5.7,5770000,67,"['6', '2', '7', 0, 0]",6,2,7,0,0,3.0
+1,Athletic Club,Zarraga,MD,4,2,900000,0,"['2', '2', '-', 0, 0]",2,2,0,0,0,0.8
+1,Athletic Club,Unai Vencedor,MD,2,2,2010000,0,"['-', '2', '-', 0, 0]",0,2,0,0,0,0.4
+1,Athletic Club,Malcom Adu,MD,0,0,380000,0,"['2', '-', '-', 0, 0]",2,0,0,0,0,0.4
+1,Athletic Club,Jon Morcillo,MD,0,0,320000,0,"['-', '-', '-', 0, 0]",0,0,0,0,0,0.0
+1,Athletic Club,Dani García,MD,0,0,1000000,0,"['-', '-', '-', 0, 0]",0,0,0,0,0,0.0
+1,Athletic Club,Ander Herrera,MD,0,0,2010000,0,"['-', '-', '-', 0, 0]",0,0,0,0,0,0.0
+1,Athletic Club,Guruzeta,DL,17,8.5,670000,0,"['1', '-', '16', 0, 0]",1,0,16,0,0,3.4
+1,Athletic Club,Williams,DL,12,4,9360000,100,"['5', '3', '4', 0, 0]",5,3,4,0,0,2.4
+1,Athletic Club,Sancet,DL,11,3.7,4210000,100,"['2', '3', '6', 0, 0]",2,3,6,0,0,2.2
+1,Athletic Club,Raúl García,DL,11,3.7,3080000,0,"['4', '3', '3', 0, 0]",4,3,3,0,0,2.0
+1,Athletic Club,Villalibre,DL,4,4,2020000,33,"['4', '-', '-', 0, 0]",4,0,0,0,0,0.8

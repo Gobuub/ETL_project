@@ -1,0 +1,29 @@
+Team_id,Team,Player,Position,Total_Points,Points_Average,Value,On_start_%,Last_5_games_points,J_2,J_1,J_0,J_-1,J_-2,Avg_last_5_games
+11,Real Sociedad de Fútbol,Alex Remiro,PT,6,3,5110000,100,"['7', '-1', 0, 0, 0]",7,-1,0,0,0,1.2
+11,Real Sociedad de Fútbol,Andoni Zubiaurre,PT,0,0,160000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+11,Real Sociedad de Fútbol,Zubeldia,DF,7,3.5,1680000,100,"['6', '1', 0, 0, 0]",6,1,0,0,0,1.4
+11,Real Sociedad de Fútbol,Le Normand,DF,7,3.5,6480000,100,"['5', '2', 0, 0, 0]",5,2,0,0,0,1.4
+11,Real Sociedad de Fútbol,Aritz Elustondo,DF,6,3,3690000,100,"['6', '0', 0, 0, 0]",6,0,0,0,0,1.2
+11,Real Sociedad de Fútbol,Diego Rico,DF,3,3,2450000,50,"['3', '-', 0, 0, 0]",3,0,0,0,0,0.6
+11,Real Sociedad de Fútbol,Gorosabel,DF,2,2,2030000,0,"['-', '2', 0, 0, 0]",0,2,0,0,0,0.4
+11,Real Sociedad de Fútbol,Aihen Muñoz,DF,1,0.5,800000,50,"['2', '-1', 0, 0, 0]",2,-1,0,0,0,0.2
+11,Real Sociedad de Fútbol,Jon Pacheco,DF,0,0,380000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+11,Real Sociedad de Fútbol,Álex Sola,DF,0,0,300000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+11,Real Sociedad de Fútbol,Mikel Merino,MD,17,8.5,11050000,100,"['11', '6', 0, 0, 0]",11,6,0,0,0,3.4
+11,Real Sociedad de Fútbol,Kubo,MD,12,6,5290000,100,"['9', '3', 0, 0, 0]",9,3,0,0,0,2.4
+11,Real Sociedad de Fútbol,Silva,MD,10,5,6700000,100,"['6', '4', 0, 0, 0]",6,4,0,0,0,2.0
+11,Real Sociedad de Fútbol,Brais Méndez,MD,7,3.5,7670000,100,"['5', '2', 0, 0, 0]",5,2,0,0,0,1.4
+11,Real Sociedad de Fútbol,Zubimendi,MD,6,3,3830000,100,"['4', '2', 0, 0, 0]",4,2,0,0,0,1.2
+11,Real Sociedad de Fútbol,Illarramendi,MD,3,3,1510000,0,"['3', '-', 0, 0, 0]",3,0,0,0,0,0.6
+11,Real Sociedad de Fútbol,Beñat Turrientes,MD,2,2,380000,0,"['2', '-', 0, 0, 0]",2,0,0,0,0,0.4
+11,Real Sociedad de Fútbol,Ander Barrenetxea,MD,2,2,900000,0,"['-', '2', 0, 0, 0]",0,2,0,0,0,0.4
+11,Real Sociedad de Fútbol,Robert Navarro,MD,2,2,400000,0,"['-', '2', 0, 0, 0]",0,2,0,0,0,0.4
+11,Real Sociedad de Fútbol,Germán Valera,MD,0,0,210000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+11,Real Sociedad de Fútbol,Merquelanz,MD,0,0,320000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+11,Real Sociedad de Fútbol,Ander Martín,MD,0,0,210000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+11,Real Sociedad de Fútbol,Guevara,MD,0,0,290000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+11,Real Sociedad de Fútbol,Isak,DL,10,5,9950000,100,"['2', '8', 0, 0, 0]",2,8,0,0,0,2.0
+11,Real Sociedad de Fútbol,Karrikaburu,DL,8,4,590000,0,"['6', '2', 0, 0, 0]",6,2,0,0,0,1.6
+11,Real Sociedad de Fútbol,Ali Cho,DL,2,1,7020000,0,"['0', '2', 0, 0, 0]",0,2,0,0,0,0.4
+11,Real Sociedad de Fútbol,Carlos Fernández,DL,0,0,1080000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
+11,Real Sociedad de Fútbol,Oyarzabal,DL,0,0,5500000,0,"['-', '-', 0, 0, 0]",0,0,0,0,0,0.0
